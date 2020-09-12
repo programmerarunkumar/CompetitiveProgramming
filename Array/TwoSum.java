@@ -11,7 +11,7 @@ class Solution {
         for(int i=0;i<length;i++){
           
             value=target-nums[i];
-            if(map.containsKey(value)){// check 
+            if(map.containsKey(value)){
                 result[0]=i;
                 result[1]=map.get(value);
                 break;
