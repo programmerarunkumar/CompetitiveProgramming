@@ -1,2 +1,2 @@
-# DataStructure&Algorithm
+# DataStructure
 
