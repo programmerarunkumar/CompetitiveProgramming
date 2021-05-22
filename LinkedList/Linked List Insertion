@@ -46,8 +46,8 @@ class GFG{
 
 class Solution
 {
-    //Function to insert a node at the beginning of the linked list.
-    // No null check need for head node as we are inserting at the beginning
+    // No null check need for head node as we are inserting at the beginning.
+    // Time complexity = O(1) as it does a constant amount of work.
     Node insertAtBeginning(Node head, int newValue)
     {
         Node newNode = new Node(newValue);
@@ -56,8 +56,12 @@ class Solution
         return head;
     }
     
-    //Function to insert a node at the end of the linked list.
-    // Null check need for head node as we are inserting at the end , if the head node is null make newNode as head node , else find the last node and store the address of new node in lastnode
+    /* 
+    Null check need for head node as we are inserting at the end.
+    if head node is null make new node as head node
+    else find the last node  and store the address of new node in last node
+    */
+    //Time complexity = O(n) Since there is a loop from head to end.
     Node insertAtEnd(Node head, int newValue)
     {
         Node newNode = new Node(newValue);
