@@ -51,31 +51,20 @@ class Solution {
         Node newNode = new Node(data);
         
         if(head == null){
-            return newNode;
-        }
-        
-        int size = sizeOfLinkedList(head);
-        if(size == 1){
-            head.next = newNode;
-            newNode.next = null;
+            head = newNode;
             return head;
         }
         
-        int position = (size % 2) == 0 ? (size/2) : (size/2)+1;
+        int size = sizeOfLinkedList(head);
+        int insertPosition = (size % 2) == 0 ? (size/2) : (size/2)+1;
         
         Node prev = head;
-        Node iterator = head;
-        int currentPosition = 0;
-        while(iterator != null){
-            if(currentPosition == position){
-                newNode.next = prev.next;
-                prev.next = newNode;
-                break;
-            }
-            prev = iterator;
-            iterator = iterator.next;
-            currentPosition++;
+        while(insertPosition > 1){
+            prev = prev.next;
+            insertPosition--;
         }
+        newNode.next = prev.next;
+        prev.next = newNode;
         
         return head;
         
