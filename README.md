@@ -13,4 +13,4 @@
 |Identical Linked Lists|Basic|https://practice.geeksforgeeks.org/problems/identical-linked-lists/1|-|
 |Occurence of an integer in a Linked List|Basic|https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1|-|
 |Nth node from end of linked list|Basic|https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1|-|
-
+|Delete a Node in Single Linked List|Basic|https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1|-|
