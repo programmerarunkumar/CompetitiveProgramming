@@ -63,3 +63,33 @@ class Solution {
     }
     
 }
+Implemented Using Stack
+//
+class Solution1 {
+    
+    
+    public int sum(Node head, int k){
+        
+        int sumOfLastNNodes = 0;
+        
+        if(head == null){
+            return sumOfLastNNodes;
+        }
+        
+        Node iterator = head;
+        Stack<Integer> stack = new Stack<Integer>();
+        while(iterator != null){
+            stack.push(iterator.data);
+            iterator = iterator.next;
+        }
+        
+        while(k > 0){
+            sumOfLastNNodes = sumOfLastNNodes + stack.peek();
+            stack.pop();
+            k--;
+        }
+        return sumOfLastNNodes;
+        
+    }
+    
+}
