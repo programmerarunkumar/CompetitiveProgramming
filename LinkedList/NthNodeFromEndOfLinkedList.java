@@ -19,8 +19,7 @@ public class LinkedList_Element_From_Last{
 	
     	void printList(Node head){
         	Node temp = head;
-        	while (temp != null)
-        	{
+        	while (temp != null){
            		System.out.print(temp.data+" ");
            		temp = temp.next;
         	}  
@@ -39,7 +38,7 @@ public class LinkedList_Element_From_Last{
 	  
     public static void main(String args[]){
 	    
-         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 	int t=sc.nextInt();
 		 
 	while(t>0)
