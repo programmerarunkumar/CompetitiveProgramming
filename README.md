@@ -10,4 +10,6 @@
 |Node at a given index in linked list|Basic|https://practice.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1|https://github.com/programmerarunkumar/DataStructureAndAlgorithm/blob/master/LinkedList/NodeAtAGivenIndexInLinkedList.java|
 |Find n/k th node in Linked list|Basic|https://practice.geeksforgeeks.org/problems/find-nk-th-node-in-linked-list/1|-|
 |Find the Sum of Last N nodes of the Linked List|Basic|https://practice.geeksforgeeks.org/problems/find-the-sum-of-last-n-nodes-of-the-linked-list/1|-|
+|Identical Linked Lists|Basic|https://practice.geeksforgeeks.org/problems/identical-linked-lists/1|-|
+|Occurence of an integer in a Linked List|Basic|https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1|-|
 
