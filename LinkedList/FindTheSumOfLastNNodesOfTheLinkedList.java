@@ -40,6 +40,7 @@ class Solution {
     public int sum(Node head, int k){
         
         int sumOfLastNNodes = 0;
+        
         if(head == null){
             return sumOfLastNNodes;
         }
@@ -48,13 +49,14 @@ class Solution {
         Node iterator = head;
         while(iterator != null){
             length++;
-            sumOfLastNNodes = sumOfLastNNodes + iterator.data;
             iterator = iterator.next;
         }
         
         iterator = head;
-        while(length != k){
-            sumOfLastNNodes = sumOfLastNNodes - iterator.data;
+        while(iterator != null){
+            if(length <= k){
+             sumOfLastNNodes = sumOfLastNNodes + iterator.data;   
+            }
             iterator = iterator.next;
             length--;
         }
