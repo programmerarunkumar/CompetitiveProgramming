@@ -12,4 +12,5 @@
 |Find the Sum of Last N nodes of the Linked List|Basic|https://practice.geeksforgeeks.org/problems/find-the-sum-of-last-n-nodes-of-the-linked-list/1|-|
 |Identical Linked Lists|Basic|https://practice.geeksforgeeks.org/problems/identical-linked-lists/1|-|
 |Occurence of an integer in a Linked List|Basic|https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1|-|
+|Nth node from end of linked list|Basic|https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1|-|
 
