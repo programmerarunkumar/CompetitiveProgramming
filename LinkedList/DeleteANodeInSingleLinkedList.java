@@ -78,12 +78,13 @@ class GfG{
     Node deleteNode(Node head, int xthNode){
 	    
 	    if(head != null && xthNode == 1){
-	        return head.next;   
+		head = head.next;
+	        return head;   
 	    }
 	    
 	    int currentPosition = 1;
 	    Node currentNode = head;
-	    Node previousNode = null;
+	    Node previousNode = head;
 	    while(currentNode != null && currentPosition != xthNode){
 	        currentPosition++;
 	        previousNode = currentNode;
