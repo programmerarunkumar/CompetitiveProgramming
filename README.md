@@ -14,3 +14,4 @@
 | 10 | [Occurence of an integer in a Linked List](https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1) | - |Basic |
 | 11 | [Nth node from end of linked list](https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1) | - | Basic |
 | 12 | [Delete a Node in Single Linked List](https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1) | [Solution](https://github.com/programmerarunkumar/DataStructure/blob/master/LinkedList/DeleteANodeInSingleLinkedList.java) | Basic |
+| 13| [Compare two linked lists](https://practice.geeksforgeeks.org/problems/compare-two-linked-lists/1) | [Solution](https://github.com/programmerarunkumar/DataStructure/blob/master/LinkedList/CompareTwoLinkedLists.java) | Basic |
