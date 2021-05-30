@@ -79,24 +79,18 @@ class GfG{
     int compare(Node node1, Node node2){
       
         int result = 0;
-        Node iterator1 = node1;
-        Node iterator2 = node2;
-        while(iterator1 != null && iterator2 != null){
-            if(iterator1.data > iterator2.data){
-                return 1;
-            }else if(iterator2.data > iterator1.data){
-                return -1;
-            }
-            iterator1 = iterator1.next;
-            iterator2 = iterator2.next;
+        
+        while(node1 != null && node2 != null && node1.data == node2.data){
+            node1 = node1.next;
+            node2 = node2.next;
         }
         
-        if(iterator1 == null && iterator2 == null){
-            result = 0;
-        }else if(iterator1 != null){
-            result = 1;
-        }else if(iterator2 != null){
-            result = -1;
+        if(node1 != null && node2 != null){
+            return (node1.data > node2.data) ? 1 : -1;
+        }else if(node1 != null && node2 == null){
+            return 1;
+        }else if(node1 == null && node2 != null){
+            return -1;
         }
         return result;
     
