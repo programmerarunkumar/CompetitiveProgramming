@@ -2,7 +2,7 @@
 #LinkedList
 |#|Problem |Solution| Difficulty |
 |---|---|---|---|
-| 1 | [Linked List Insertion](https://practice.geeksforgeeks.org/problems/linked-list-insertion/1) | [Solution](https://github.com/programmerarunkumar/DataStructureAndAlgorithm/blob/master/LinkedList/Linked%20List%20Insertion) | Basic |
+| 1 | [Linked List Insertion](https://practice.geeksforgeeks.org/problems/linked-list-insertion/1) | [Solution](https://github.com/programmerarunkumar/DataStructure/blob/master/LinkedList/LinkedListInsertion.java) | Basic |
 | 2 | [Insert in Middle of Linked List](https://practice.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1 )| [Solution](https://github.com/programmerarunkumar/DataStructureAndAlgorithm/blob/master/LinkedList/InsertInMiddleOfLinkedList.java) | Basic |
 | 3 | [Count nodes of linked list](https://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/1) |  [Solution](https://github.com/programmerarunkumar/DataStructureAndAlgorithm/blob/master/LinkedList/CountNodesOfLinkedList.java) | Basic |
 | 4 | [Linked List Length Even or Odd?](https://practice.geeksforgeeks.org/problems/linked-list-length-even-or-odd/1) | [Solution](https://github.com/programmerarunkumar/DataStructureAndAlgorithm/blob/master/LinkedList/LinkedListLengthEvenOrOdd.java) | Basic |
