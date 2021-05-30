@@ -17,3 +17,4 @@
 | 13| [Compare two linked lists](https://practice.geeksforgeeks.org/problems/compare-two-linked-lists/1) | [Solution](https://github.com/programmerarunkumar/DataStructure/blob/master/LinkedList/CompareTwoLinkedLists.java) | Basic | |
 | 14 | [Finding middle element in a linked list](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) | [Solution](https://github.com/programmerarunkumar/DataStructure/blob/master/LinkedList/FindingMiddleElementInALinkedList.java) | Basic | |
 | 15 | [Detect Loop in linked list](https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1#) | - | Basic | Floyd’s Cycle-Finding Algorithm |
+| 16 | [Find length of Loop](https://practice.geeksforgeeks.org/problems/find-length-of-loop/1) | - | Basic | Floyd’s Cycle-Finding Algorithm |
