@@ -84,3 +84,33 @@ class GfG{
     }
     
 }
+
+// Implemented using Stack
+class GfG1{
+    
+    int getNthFromLast(Node head, int n){
+        
+        if(head == null){
+            return -1;
+        }
+        
+        int length = 0;
+        Node iterator = head;
+        Stack<Integer> stack = new Stack<Integer>();
+        while(iterator != null){
+            stack.push(iterator.data);
+            iterator = iterator.next;
+            length++;
+        }
+        
+        int value = -1;
+        while(n > 0 && n <= length){
+            value = stack.peek();
+            stack.pop();
+            n--;
+        }
+        return value;
+    	
+    }
+    
+}
